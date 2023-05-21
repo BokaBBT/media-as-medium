@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+header {
+    font-family: 'Kanit';
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+header a {
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.link-back-container {
+height: 152px;
+display: flex;
+align-items: center;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info .left {
+    display: flex;
+}
+
+.info .left .avatar img {
+width: 64px;
+height: 64px;
+margin-right: 16px;
+}
+
+.info-text h4 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+margin-bottom: 12px;
+}
+
+.info-text p {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #000000;
+opacity: 0.5;
+}
+
+.info-text span {
+    margin: 0 4px
+}
+
+.right a {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+h1 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 34px;
+line-height: 38px;
+margin-top: 70px;
+}
+
+h2 {
+    font-family: 'SF Pro Display';
+    font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+margin-top: 24px;
+margin-bottom: 70px;
+}
+
+h3 {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 28px;
+margin-top: 70px;
+margin-bottom: 24px;
+}
+
+p {
+    font-family: 'SF Pro Display';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 36px;
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.actions .left {
+    display: flex;
+}
+
+.actions .left span {
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+color: #B7B7B7;
+margin-left: 7px;
+}
+
+.actions .left div {
+    margin-right: 17px;
+    display: flex;
+    align-items: center;
+}
+
+hr {
+    margin-top: 39px;
+    background-color: #B7B7B7;
+    height: 2px;
+    margin-bottom: 40px;
+}
+

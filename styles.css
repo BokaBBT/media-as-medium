@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F1F1F1;
+}
+
+header {
+    font-family: 'Kanit';
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+header a {
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+}
+
+h1 {
+    max-width: 1120px;
+    margin: 64px auto;
+    font-family: 'Kanit';
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120px;
+}
+
+.articles {
+    max-width: 1120px;
+    margin: 0 auto;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    border-bottom:  1px solid rgba(0, 0, 0, 0.2);;
+    padding-bottom: 36px;
+    margin-bottom: 45px;
+}
+
+.left {
+    max-width: 755px;
+}
+
+.author-and-date {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter';
+}
+
+.author-and-date img {
+    margin-right: 4px;
+    width: 24px;
+    height: 24px;
+}
+
+.author-and-date p {
+    color: gray;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.author-and-date p span {
+    color: black;
+}
+
+.article h2 {
+    margin-top: 48px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.article h2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.article p.text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 24px;
+    max-width: 693px;
+}
+
+.info {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-between;
+}
+
+.info-left {
+    display: flex;
+    align-items: center;
+}
+
+.info-left a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: black;
+    text-decoration: none;
+    padding: 6px 16px;
+    background: linear-gradient(90deg, rgba(169, 27, 27, 0.12), rgba(26, 180, 41, 0.12)), #FFFBFE;
+    border-radius: 100px;
+    margin-right: 8px;
+}
+
+.info-left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.info-left p span.dot {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.info-left p span.opac {
+    opacity: 0.5;
+}
+
+.info-right {
+    display: flex;
+}
+
+.info-right .square {
+    width: 24px;
+    height: 24px;
+    background: #E1E0E6;
+    margin-left: 14px;
+}
